@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lovely Professional University</title>
+
+  <style>
+    /* Basic page style */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Navigation bar style */
+    nav {
+      background-color: #ff6600;
+      padding: 10px;
+    }
+
+    /* Navigation links */
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 15px;
+      display: inline-block;
+    }
+
+    /* Hover effect */
+    nav a:hover {
+      background-color: white;
+      color: #ff6600;
+    }
+
+    /* Active link */
+    nav a.active {
+      background-color: #333;
+      color: white;
+    }
+
+    /* Visited link */
+    nav a:visited {
+      color: #ddd;
+    }
+
+    /* Responsive: Stack links on small screens */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        text-align: center;
+      }
+    }
+
+    /* Page content */
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="active">Home</a>
+    <a href="#">Academics</a>
+    <a href="#">Admissions</a>
+    <a href="#">Research</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h1>Welcome to Lovely Professional University</h1>
+    <p>This is a simple responsive navigation menu with hover, active, and visited link styles.</p>
+  </div>
+
+</body>
+</html>
